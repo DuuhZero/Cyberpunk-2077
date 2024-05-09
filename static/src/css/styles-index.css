@@ -1,0 +1,722 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
+
+body, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fcee0a;
+    font-family: BlenderProBook,sans-serif;
+    font-weight: 300;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    margin-top: 3%;
+    background: linear-gradient(to bottom, transparent 60%, #000)
+}
+
+
+.cabecalho .menu{
+    display: flex;
+    flex-direction:row;
+    border: 1px solid;
+    border-color: #fcee0a;
+    background: linear-gradient(180deg,rgba(0,0,0,.65),transparent);
+    transition: opacity .2s;
+    will-change: opacity;
+    max-width: 85%;
+    margin-left: -5;
+    margin-top: -4%;
+}
+
+
+.cabecalho .menu li a:hover{
+    color: #fcee0a;
+    transition: 0.5s;
+    margin-right:50%;
+
+}
+
+li a{
+    margin-top: 2%;
+    margin-left: -22%;
+    padding: 14px;
+    color: white;
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none
+}
+
+
+
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: none
+}
+
+header{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    
+}
+ .cabecalho .logo{
+    width: 30%;
+    height: 10%;
+    margin-left: 4%;
+    margin-top: -2%;
+    z-index: 20;
+}
+
+.corpo{
+    background: linear-gradient(to top, rgb(0, 0, 0)35%, transparent )
+}
+
+.cabecalho .home .titulo{
+    display: flex;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 4%;
+    font-size: 50px;
+    font-family: refinery-25;
+
+}
+
+.cabecalho .home .texto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 35%;
+    margin-top: 15%;
+    font-family: refinery-25;
+    font-size: 65px;
+    margin-left: 4% ;
+}
+
+
+.cabecalho .home{
+    display: flex;
+    position: absolute;
+}
+.corpo .imagem{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.cabecalho .home a{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    position: absolute;
+    margin-top: 30%;
+    font-size: 30px;
+}
+
+.cabecalho .home .botaocomprar{
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #000;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    text-decoration: none;
+    color: #000;
+}
+
+.cabecalho .home .trailer{
+    margin-left: 20%;
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #000;
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+    text-decoration: none;
+    color:#000
+}
+
+.cabecalho .home .botaocomprar:hover{
+    background-color: #000;
+    color: #fcee0a;
+}
+
+.cabecalho .home .trailer:hover{
+    background-color: #000;
+    color: #fcee0a;
+}
+
+.cabecalho .plataformas{
+    display: flex;
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 8%;
+    gap: 10%;
+}
+
+.linha{
+    background-image: url(/static/src/imagens/separador.svg);
+    bottom: 0;
+    margin-bottom:-4%  ;
+    content: "";
+    height: 48px;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+
+
+.conteudos .frase-conteudo{
+    font-size: 45px;
+    font-family: refinery-25;
+    text-align: center;
+    margin-right:1%;
+    margin-top: 10%;
+}
+
+.conteudos .paragrafo{
+    display: flex;
+    font-family: BlenderProBook,sans-serif;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    line-height: 120%;
+    margin-left: 20%;
+    margin-right: 22%;
+    margin-top:2%;
+    padding: 0px 50px;
+    
+}
+
+.separador {
+    background-image: linear-gradient(90deg,#000 28px,#fcee0a 0,#fcee0a calc(50% - 14px),#000 calc(50% - 14px),#000 calc(50% + 14px),#fcee0a calc(50% + 14px),#fcee0a calc(100% - 28px),#000 calc(100% - 28px),#000),linear-gradient(90deg,#000 2px,#fcee0a 0,#fcee0a calc(50% - 1px),#000 calc(50% - 1px),#000 calc(50% + 1px),#fcee0a calc(50% + 1px),#fcee0a calc(100% - 2px),#000 calc(100% - 2px),#000);
+    background-repeat: no-repeat;
+    background-size: 63.5% 2px,63.5% 28px;
+    margin-left: 25%;
+    height: 28px;
+    margin-bottom: 20px;
+    margin-top: 2%;
+}
+
+.cartao{
+    display: flex;
+    gap: 10px;
+    border: 10px solid;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, rgb(0, 0, 0)100%, transparent )
+}
+
+
+.cartao .pcp .img .rodape-cartao .plat{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    margin-bottom: 9%;
+    margin-right: 6%;
+    margin-left: 5%;
+}
+
+
+
+.cartao .pcp .img .rodape-cartao{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-end;
+    padding: 2.0833333333vw 2.5vw;
+    position: abslute;
+    width: 100%;
+}
+
+
+.cartao .pcp .botaocomprar{
+        position: absolute;
+        border: 1px solid #00f0ff;
+        border-radius: 4px;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        transition: all .3s ease-in;
+        margin-top: 29%;
+        margin-left: 7%;
+        color: #00f0ff;
+}
+
+.cartao .pcp .botaocomprar:hover{
+    background-color: #fcf00a;
+    color: #000000;
+    border: 1px solid #fcee0a;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.cartao .pp .img .rodape-cartao .plat{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    margin-bottom: 9%;
+    margin-right: 6%;
+    margin-left: 2%;
+}
+
+
+.cartao .pp .img .rodape-cartao{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-end;
+    padding: 2.0833333333vw 2.5vw;
+    position: abslute;
+    width: 100%;
+}
+
+
+.cartao .pp .botaocomprar{
+        position: absolute;
+        border: 1px solid #00f0ff;
+        border-radius: 4px;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        transition: all .3s ease-in;
+        margin-top: 29%;
+        margin-left: 6%;
+        color: #00f0ff;
+}
+
+.cartao .pp .botaocomprar:hover{
+    background-color: #fc1a0a;
+    color: #000000;
+    border: 1px solid #fc1a0a;
+}
+
+
+
+
+
+
+
+
+
+.cartao .ped .img .rodape-cartao .plat{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    margin-bottom: 17%;
+    margin-right: 6%;
+    margin-left: 1%;
+}
+
+
+.cartao .ped .img .rodape-cartao{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-end;
+    padding: 2.0833333333vw 2.5vw;
+    position: abslute;
+    width: 100%;
+}
+
+
+.cartao .ped .botaoinformacoes{
+        position: absolute;
+        border: 1px solid #00f0ff;
+        border-radius: 4px;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        transition: all .3s ease-in;
+        margin-top: 29%;
+        margin-left: 2%;
+        color: #00f0ff;
+}
+
+.cartao .ped .botaoinformacoes:hover{
+    background-color: #00ffae;
+    color: #000000;
+    border: 1px solid #00fdad;
+}
+
+
+
+
+
+
+
+.cartao .prod .img .rodape-cartao .plat{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    margin-bottom: 17%;
+    margin-right: 6%;
+    margin-left: 1%;
+}
+
+
+.cartao .prod .img .rodape-cartao{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-end;
+    margin-left: 12%;
+    margin-top: 25%;
+    position: abslute;
+    width: 100%;
+}
+
+
+.cartao .prod .botaoinformacoes{
+        position: absolute;
+        border: 1px solid #00f0ff;
+        border-radius: 4px;
+        font-size: 30px;
+        text-align: center;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        transition: all .3s ease-in;
+        margin-top: 29%;
+        margin-left: 2.5%;
+        color: #00f0ff;
+}
+
+.cartao .prod .botaoinformacoes:hover{
+    background-color: #ff0800;
+    color: #000000;
+    border: 1px solid #ff0800;
+}
+
+
+.rodape .separador2{
+    background-image: url(/static/src/imagens/separadorbottom.svg);
+    transform: rotate(180deg);
+    content: "";
+    height: 32px;
+    margin-top: 15%;
+    position: relative;
+    width: 100%;
+}
+
+.rodape .copyright{
+    background-color: #000;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+.rodape .copyright .paragrafo {
+    display:flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    
+}
+
+.rodape{
+    background-color: #fcee0a;
+    position:absolute;
+    margin-top: -6%;
+    margin-bottom: 16%;
+    
+}
+
+.rodape-pagina{
+    background-color: #000;
+}
+
+
+@media(max-width: 1192px) {
+
+    .cabecalho .home .trailer{
+        margin-left: 21%;
+    }
+    .cabecalho .home a{
+        margin-top: 35%;
+    }
+
+    .cabecalho .plataformas{
+        margin-top: 40%;
+    }
+    .linha{
+        margin-bottom: -5.2%;
+    }
+    .separador{
+        background-size: 85.5% 2px,85.5% 28px;
+        margin-left: 11%;
+    }
+    .cartao{
+        flex-wrap: wrap;
+        gap: 50px;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .cartao .pcp  {
+        margin-left: 16%;
+    }
+
+    .cartao .pcp .img .rodape-cartao .plat{
+        flex-wrap: wrap;
+        margin-bottom: 18%;
+        margin-left: 21%;
+        margin-right: 20%;
+    }
+
+    .cartao .pp .img .rodape-cartao .plat{
+        margin-bottom: 18%;
+    }
+    .cartao .pp .botaocomprar{
+        margin-left: 8%;
+    }
+
+    .cartao .ped  {
+        margin-left: 16%;
+    }
+
+    .cartao .prod  {
+        margin-top: 3%;
+    }
+
+    .cartao .prod .img .rodape-cartao .plat{
+        margin-right: 8%;
+        margin-bottom: 25%;
+    }
+    .rodape {
+        margin-top: -7%;
+    }
+}
+
+@media(max-width: 926px){
+    .cabecalho .home .trailer{
+        margin-left: 27%;
+
+}
+    .cabecalho .home a{
+        margin-top: 43%;
+}
+
+    .cabecalho .plataformas{
+    margin-top: 53%;
+}
+    .cabecalho .menu{
+        margin-top: 1%;
+    }
+
+    .cartao{
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .cartao .pcp  {
+        margin-left: 10%;
+    }
+
+    .cartao .pcp .img .rodape-cartao .plat{
+        flex-wrap: wrap;
+        margin-bottom: 15%;
+        margin-left: 18%;
+        margin-right: 20%;
+    }
+    .cartao .pp .botaocomprar{
+        margin-left: 10%;
+        margin-top: 45%;
+    }
+
+    .cartao .pcp .botaocomprar{
+        margin-left: 10%;
+        margin-top: 45%;
+    }
+
+    .cartao .pp .img .rodape-cartao .plat{
+        margin-bottom: 15%;
+    }
+
+    .cartao .ped  {
+        margin-left: 10%;
+        margin-top: -8.4%;
+    }
+
+    .cartao .prod  {
+        margin-top: -3%;
+    }
+
+
+    .cartao .prod .botaoinformacoes{
+        margin-top: 40%;
+        margin-left: 3.5%;
+    }
+
+    .cartao .ped .botaoinformacoes{
+        margin-top: 40%;
+        margin-left: 3.5%;
+    }
+
+    .cartao .ped .img .rodape-cartao .plat{
+        margin-bottom: 20%;
+    }
+    .rodape {
+        margin-top: -7%;
+    }
+
+    .separador{
+        background-size: 89.5% 2px,89.5% 28px;
+        margin-left: 9%;
+    }
+
+    .rodape {
+        margin-top: -10%;
+    }
+}
+
+@media (max-width: 460px){
+
+    .cabecalho .home .titulo{
+        font-size: 40px;
+        margin-top: 30%;
+    }
+    .cabecalho .home .texto{
+        font-size: 35px;
+        margin-top: 40%;
+    }
+    .cabecalho .menu{
+        margin-top: 20%;
+        
+    }
+
+    .cabecalho .logo{
+        margin-left: 10%;
+    }
+    .cabecalho nav{
+        margin-left: -39%;
+    }
+
+    .corpo img{
+        
+        width: 460px;
+        height: 631px;
+    }
+
+    .cabecalho .home .trailer{
+        margin-left: 5%;
+        margin-top: 100%;
+
+}
+    .cabecalho .home a{
+        margin-top: 85%;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
+    .cabecalho .plataformas{
+    margin-top: 120%;
+}
+    .conteudos .frase-conteudo{
+        margin-top: 30%;
+        font-size: 40px;
+    }
+    .conteudos .paragrafo{
+        font-size:19px ;
+    }
+
+    .cartao .pp  {
+        margin-left: 10%;
+        margin-bottom: 9%;
+    }
+
+    .cartao .pp .botaocomprar{
+        margin-left: 20%;
+        margin-top: 80%;
+    }
+
+    .cartao .prod  {
+        margin-top: -3%;
+        margin-left: 10%;
+    }
+
+
+    .cartao .prod .botaoinformacoes{
+        margin-top: 90%;
+        margin-left: 7%;
+    }
+
+    .cartao .prod .img .rodape-cartao .plat{
+        margin-bottom: 50%;
+        margin-right: 19%;
+    }
+
+    .cartao .ped .botaoinformacoes{
+        margin-top: 90%;
+        margin-left: 7%;
+    }
+
+    .cartao .ped .img .rodape-cartao .plat{
+        margin-bottom: 35%;
+    }
+
+    .cartao .ped{
+        margin-bottom: 3%;
+    }
+
+    .cartao .prod .botaoinformacoes{
+        margin-top: 90%;
+        margin-left: 7%;
+    }
+
+    .cartao .pcp .botaocomprar{
+        margin-top: 72%;
+        margin-left: 20%;
+    }
+    .rodape {
+        margin-top: -19%;
+    }
+}
+

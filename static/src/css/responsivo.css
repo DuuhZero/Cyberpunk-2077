@@ -1,0 +1,111 @@
+@media(max-width: 1192px) {
+    
+
+}
+
+
+
+@media(max-width: 926px) {
+    .cabecalho .menu {
+        margin-top: 0;
+    }
+
+    .cabecalho .logo{
+        margin-left: 0%;
+    }
+
+    .lateral .suporte .titulo {
+        font-size: 30px;
+        margin-right: 10%;
+    }
+
+    .lateral .suporte .texto {
+        font-size: 20px;
+        margin-right: 15%;
+    }
+
+    .formulario .info{
+        margin-top: -50%;
+        margin-left: -20%;
+    }
+
+    .formulario{
+        margin-bottom:60%;
+        margin-left: 47%;
+    }
+
+    .formulario .info button{
+        margin-top: 2%;
+        margin-bottom: -4%;
+    }
+    .barra {
+        width: 0%;
+        height: 100%;
+        margin-left: 35%;
+    
+    }
+
+}
+    
+
+@media (max-width: 460px) {
+    .cabecalho .menu{
+        margin-top: 20%;
+        
+    }
+
+    .cabecalho .logo{
+        margin-left: 10%;
+    }
+    .cabecalho nav{
+        margin-left: -81%;
+    }
+
+    .lateral .suporte .titulo {
+        font-size: 20px;
+        margin-top: 120%;
+        margin-right: 41%;
+    }
+
+    .lateral .suporte .texto {
+        flex-wrap: wrap;
+        font-size: 18px;
+        margin-top: 20%;
+        margin-right: 41%;
+    }
+
+    .formulario{
+        margin-left: 40%;
+        margin-right: 10%;
+    }
+
+    .formulario .info{
+        margin-top: -110%;
+        margin-left: -1%;
+    }
+
+    .formulario .info button{
+        margin-top: 2%;
+        margin-bottom: -4%;
+    }
+    .barra {
+        width: 0%;
+        height: 120%;
+        margin-left: 36%;
+        margin-top: 32%;
+    
+    }
+
+    .formulario .info input{
+        font-size: 20px;
+    }
+
+    .formulario .info label{
+        font-size: 20px;
+    }
+
+    .rodape {
+        margin-top: 50%;
+    }
+    }
+

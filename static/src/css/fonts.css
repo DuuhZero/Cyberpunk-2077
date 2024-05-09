@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'BlenderProBook';
+    src: url('../fonts/BlenderPro-Bold.woff2')
+}
+
+@font-face {
+    font-family: 'Refinery-25';
+    src: url('../fonts/refinery-25-bold.ttf');
+}

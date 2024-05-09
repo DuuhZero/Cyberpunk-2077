@@ -1,0 +1,419 @@
+html{
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
+
+body, h1, h2, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fcee0a;
+    font-family: BlenderProBook,sans-serif;
+    font-weight: 300;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    margin-top: 3%;
+
+}
+
+
+.cabecalho .menu{
+    display:flex;
+    flex-direction:row;
+    border: 1px solid;
+    border-color: #00f0ff;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.756)100%,transparent);
+    transition: opacity .2s;
+    will-change: opacity;
+    margin-right: 6%;
+    margin-top: -4%;
+
+}
+
+.cabecalho .logo a{
+    position: absolute;
+    
+}
+.cabecalho .menu li a:hover{
+    color: #fcee0a;
+    transition: 0.5s;
+    margin-right:12%;
+}
+
+.cartao-comprar{
+    background-color: #fcee09;
+    border-bottom:2px solid rgba(0,0,0,.08);
+}
+li a{
+    margin-bottom: -6%;
+    margin-top: 2%;
+    margin-left: -22%;
+    padding: 20px ;
+    color:#00f0ff;
+    font-size: 30px;
+    list-style-type: none;
+    text-decoration: none
+}
+
+
+
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: none
+}
+
+header{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    
+}
+ .cabecalho .logo{
+    width: 100%;
+    margin-left: 4%;
+    margin-top: -2%;
+
+}
+
+.cartão-comprar{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+.cartão-comprar .informacao{
+    background-color: #fcee09;
+    display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+    
+}
+
+.cartão-comprar .informacao .box-info{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.cartão-comprar .informacao .box-info .box-titulo{
+    text-align: center;
+    position: absolute;
+    margin-bottom: 22%;
+    margin-left: 43%;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.cartão-comprar .informacao .box-info .box-jogos{
+    align-items: flex-start;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogo1{
+    order: 3;
+    cursor: pointer;
+    max-width: 860px;
+    position: relative
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogodlc{
+    order: 2;
+    cursor: pointer;
+    max-width: 860px;
+    position: relative
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogoultimate{
+    order: 1;
+    cursor: pointer;
+    max-width: 860px;
+    position: relative
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogo1 .selecaobox{
+    outline: 6px solid #000;
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogo1 .selecaobox img{
+    aspect-ratio: 16/9;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    width: 100%
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogo1 .selecaobox .bordalayer{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.cartão-comprar .informacao .box-info .box-jogos .jogodlc .selecaobox{
+    outline: 6px solid #000;
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogodlc .selecaobox img{
+    aspect-ratio: 16/9;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    width: 100%
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogodlc .selecaobox .bordalayer{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogoultimate .selecaobox{
+    outline: 6px solid #000;
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogoultimate .selecaobox img{
+    aspect-ratio: 16/9;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    width: 100%
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogoultimate .selecaobox .bordalayer{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cartão-comprar .informacao .box-info .box-jogos .jogodlc .validacaodlc{
+    text-align: center;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.cartão-comprar .informacao .box-info .infoplat{
+    position: absolute;
+    text-align: center;
+    margin-top: 30%;
+    margin-left: 36%;
+    
+}
+
+.cartão-comprar .informacao .box-info .infoplat .tituloplat .boxtitulo{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.cartão-comprar .informacao .box-info .infoplat .caixatresplat{
+    align-items: center;
+    justify-content: center;
+}
+
+.cartão-comprar .informacao .box-info .infoplat .caixatresplat .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    background-color:#0a0a0a;
+    padding: 10px 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 1px auto -webkit-focus-ring-color;
+  outline-offset: -1px;
+  outline-color: #3d3d3d;
+  border-color: #3d3d3d;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #2a2a2a;
+  text-decoration: none;
+  outline-color: #424141;
+}
+
+
+.rodape .separador2{
+    background-image: url(/static/src/imagens/separadorbottom.svg);
+    transform: rotate(180deg);
+    content: "";
+    height: 32px;
+    margin-top: 9%;
+    position: relative;
+    width: 100%;
+}
+
+.rodape .copyright{
+    background-color: #000;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+.rodape .copyright .paragrafo {
+    display:flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    
+}
+
+.rodape{
+    position:absolute;
+    margin-top: -3%;
+    margin-bottom: 16%;
+    
+}
+
+.rodape-pagina{
+    background-color: #000;
+}
+
+
+@media(max-width: 1192px) {
+    .cartão-comprar .informacao .box-info .infoplat .tituloplat .boxtitulo {
+        margin-top: 25%;
+        margin-bottom: -9%;
+        margin-right: 10%;
+    }
+
+    .cartão-comprar .informacao .box-info .box-jogos .jogodlc .validacaodlc {
+        margin-left: 1%;
+    }
+
+    .cartão-comprar .informacao .box-info .infoplat .caixatresplat {
+        margin-left: -10%;
+    }
+
+
+
+}
+
+
+
+@media(max-width: 926px) {
+    .cabecalho .menu {
+        margin-top: 0;
+    }
+
+    .cartão-comprar .informacao .box-info .infoplat .tituloplat .boxtitulo {
+        margin-left: -20%;
+    }
+
+    .cartão-comprar .informacao .box-info .infoplat .caixatresplat {
+        margin-left: -28%;
+    }
+
+    .cartão-comprar .informacao .box-info .box-titulo {
+        margin-left: 39%;
+    }
+
+
+}
+
+
+@media (max-width: 460px) {
+    .cabecalho nav{
+        margin-left: -36%;
+    }
+
+    .cabecalho .menu{
+        margin-top: 20%;
+        
+    }
+
+    .cabecalho .logo{
+        margin-left: 12%;
+    }
+        
+
+    .cartão-comprar .informacao .box-info .box-titulo {
+        margin-left: 27%;
+        margin-bottom: 30%;
+    }
+
+    .cartão-comprar .informacao .box-info .box-jogos .jogo1 {
+        max-width: 460px;
+    }
+
+    .cartão-comprar .informacao .box-info .box-jogos .jogodlc {
+        max-width: 460px;
+    }
+
+    .cartão-comprar .informacao .box-info .box-jogos .jogoultimate {
+        max-width: 460px;
+    }
+    .cartão-comprar .informacao .box-info .box-jogos{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-left: 19%;
+        margin-top: 90%;
+        position: absolute;
+    }
+
+    .rodape {
+        margin-top: 50%;
+        background-color: transparent;
+    }
+
+    .cartão-comprar .informacao .box-info .infoplat .tituloplat .boxtitulo {
+        margin-left: -50%;
+        margin-top: 300%;
+    }
+
+    .cartão-comprar .informacao .box-info .infoplat .caixatresplat {
+        margin-left: -60%;
+    }
+
+
+    
+    }
+
